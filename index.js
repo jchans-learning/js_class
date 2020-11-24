@@ -17,13 +17,18 @@ c1[0] = 3 // 常數裡的陣列的成員可以指定
 console.log(c1)
 console.log(d)
 
-console.log("type of undefined is: " + typeof undefined)
-console.log("type of null is: " + typeof null)
+console.log('type of undefined is: ' + typeof undefined)
+console.log('type of null is: ' + typeof null)
 
-console.log("type of NaN is: " + typeof NaN)
-console.log("'hello'//1 " + "= " + "hello"/1)
+console.log('type of NaN is: ' + typeof NaN)
+console.log("'hello'//1 " + '= ' + 'hello' / 1)
 
 console.log(Math.PI)
 
-console.log("\n--------------\n\n")
-console.log("Document Ended")
+const element = "I'm a student."
+const a2 = 123
+
+let b = 111
+
+console.log('\n--------------\n\n')
+console.log('Document Ended')
