@@ -28,7 +28,13 @@ console.log(Math.PI)
 const element = "I'm a student."
 const a2 = 123
 
-let b = 111
+let b = 'This is a function'
+
+function a3() {
+  console.log(b)
+}
+
+a3()
 
 console.log('\n--------------\n\n')
 console.log('Document Ended')

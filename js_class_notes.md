@@ -4,8 +4,9 @@
   - JS
     - 教材：https://github.com/eyesofkids/mfee11-js
     - https://eddy-chang.gitbook.io/javascript-start-from-es6/
-    - https://github.com/eyesofkids/mfee11-js/blob/main/%E6%95%99%E6%9D%90/一開始宣告就出市值
+    - https://github.com/eyesofkids/mfee11-js/blob/main/%E6%95%99%E6%9D%90/
   - React
+  - 老師的 blog ： https://eddychang.me/
 
 
 - github
@@ -114,4 +115,7 @@ Number("123abc")
 
 - 一般發建議用 Null 而非 Undefined。 
 - 不能用保留字作為變數名稱。
+- JavaScript Standard Style: https://standardjs.com/
+  - 自稱標準規則，但可以參考
+- VSCode 的終端機對新手應該不太容易理解他是做什麼的？雖然其實就是 cmd line 。
 - 
