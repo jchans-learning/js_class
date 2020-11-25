@@ -1,6 +1,7 @@
 # 11/24 上課筆記
 
-- Eddy老師
+- Eddy 老師
+
   - JS
     - 教材：https://github.com/eyesofkids/mfee11-js
     - https://eddy-chang.gitbook.io/javascript-start-from-es6/
@@ -8,18 +9,17 @@
   - React
   - 老師的 blog ： https://eddychang.me/
 
-
 - github
+
   - https://github.com/
   - 申請帳號
 
-
 - node
+
   - https://nodejs.org/en/
   - 用 14.15.1 LTS
   - npm （ node package manager ）： https://www.npmjs.com/
   - 以後可能需要學習多版本管理。
-
 
 - 編輯器 VSCode
   - Babel
@@ -65,7 +65,7 @@ b = 'hello' //這邊會出問題
 
 - 資料結構，資料類型問題。
 - 複合資料類型， obj ， Array 與 Function
-- JS的新資料類型， Big Int （額外談及），目前不見得所有瀏覽器都能用。
+- JS 的新資料類型， Big Int （額外談及），目前不見得所有瀏覽器都能用。
 
 ```
 形式：
@@ -73,11 +73,12 @@ b = 'hello' //這邊會出問題
 ```
 
 - 原生 JS 能表示的最大整數 2^53 。
-- ECMA文件： https://www.ecma-international.org/publications/standards/Ecma-262.htm
+- ECMA 文件： https://www.ecma-international.org/publications/standards/Ecma-262.htm
 - JS 的 undefined 的類型是 undefined ， **Null 的類型是 object** ，這是其他程式語言很少見的。
 - TypeScript ，微軟做的： https://www.typescriptlang.org/
 - 變數，常數，撰寫風格建議（參考投影片： https://github.com/eyesofkids/mfee11-js/blob/main/%E6%95%99%E6%9D%90/1124/es6.pdf ）
 - 資料類型
+
   - 數字
     - 整數
     - 浮點數（有精度問題，為了需要的精度要找適當的函式庫去輔助計算）
@@ -103,6 +104,7 @@ Number("123abc")
 - 字串串接運算優先高於高於數字相加。（只有加號會這樣，可能要避免）
 
 ### 布林值
+
 - true
 - false
 - JavaScript 的關鍵字都是全小寫的
@@ -113,9 +115,20 @@ Number("123abc")
 兩個很容易搞錯的，空陣列 [ ] 與空物件 { } 都是真的。
 ```
 
-- 一般發建議用 Null 而非 Undefined。 
+- 一般發建議用 Null 而非 Undefined。
 - 不能用保留字作為變數名稱。
 - JavaScript Standard Style: https://standardjs.com/
   - 自稱標準規則，但可以參考
 - VSCode 的終端機對新手應該不太容易理解他是做什麼的？雖然其實就是 cmd line 。
-- 
+-
+
+# 11/25
+
+- JavaScript 是一個事件驅動的語言（ Event Triggered ？）
+- 敏感的事件
+- cheatsheet 小抄
+- 一般來說不太需要轉字串， JS 的東西轉到 HTML 上就是字串（？）
+- 今天的重點是迴圈（ loop ）
+- 盡量不要用 else if ，容易出現邏輯錯亂的問題（？）（老師的個人偏好與建議）
+  - 其他的語言的寫法可能是 elseif 或 elif ，寫法也容易錯亂（？）
+-
