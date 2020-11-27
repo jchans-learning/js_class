@@ -158,3 +158,48 @@ Number("123abc")
 - for 迴圈與 array ，陣列，互相搭配
 - 多重迴圈
 - while
+
+# 11/26
+
+## 日期與時間
+
+- JS 內建的 API 有時功能不足，因為本身是個很老的程式語言，每次改版都須考慮是否要向下相容。
+- Date 的 API 不算好用。設計有點不符合人性直覺，不太好用。
+- Date 是少數需要用 new 來開始的方法。
+- Date 的月份是從 0~11...
+- JS 常用函式庫
+  - https://github.com/eyesofkids/mfee11-js/issues
+  - 老師竟然把額外的參考資料放在 issues...
+- 變數與常數命名
+  - https://eddy-chang.gitbook.io/javascript-start-from-es6/part3/var_const_naming
+- 微秒值（），常被用來當 id ，因為有唯一性
+
+```
++new Date()
+```
+
+- 測試 JS 應用程式的執行時間， performance.now 或 benchmark.js
+- 樣板字串
+- 試著在上課的時候跟上每個範例並且寫好註解，後面複習比較輕鬆。
+- 老師很喜歡說：「這是江湖術士的 trick 。」
+
+# 11/27
+
+- 建立陣列，一開始建空集合，後面再放入元素（？）
+- 二維陣列
+- iteration
+- traveling
+- 淺拷貝（ Shallow copy ）
+- 深拷貝（ Deep copy ）
+- 老師推薦「展開運算子」
+
+```
+const aArray = [1, 2, 3]
+const copyArray = [...aArray]
+```
+
+- slice, concat
+- 陣列屬性與方法
+  - 針對陣列本身處理，通常有副作用（ side effect ，改變了原本陣列的樣子）
+  -
+-

@@ -16,3 +16,5 @@ apply.addEventListener('click', function () {
   // 字串連接成色碼
   text.style.color = '#' + hexColor1 + hexColor2 + hexColor3
 })
+
+// 要重新練習
