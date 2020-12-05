@@ -105,5 +105,14 @@ console.log(b3)
 
 // Map 一定要會，在 React 會常用
 
-// 今天講的部分
+// 今天講的部分，可以看老師寫的講義做
 // https://eddy-chang.gitbook.io/javascript-start-from-es6/part3/array
+
+// includes()
+// https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+
+// 老師 summary
+// 一定要學好 Map
+// push 和 unshift 很常用。成對的是 pop 和 shift
+// filter ， find ， findIndex
+// includes

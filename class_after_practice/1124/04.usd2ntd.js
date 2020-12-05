@@ -26,6 +26,6 @@ usd2ntd.addEventListener('click', function () {
   moneyConverted.innerHTML =
     +moneyToConvert.value +
     ' USD is converted to ' +
-    (+moneyToConvert.value * 28.53).toFixed() +
+    (+moneyToConvert.value * 28.53).toFixed(2) +
     ' NTD'
 })

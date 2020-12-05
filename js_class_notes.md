@@ -1,3 +1,11 @@
+# 筆記心得摘要
+
+- 善用 console.log 來 debug
+  - 確認各種變數或常數的值，陣列的內容等等
+  - 確認執行的順序
+- 練習的時候多寫註解
+- 學習的方法與系統很重要
+
 # 11/24 上課筆記
 
 - Eddy 老師
@@ -201,5 +209,58 @@ const copyArray = [...aArray]
 - slice, concat
 - 陣列屬性與方法
   - 針對陣列本身處理，通常有副作用（ side effect ，改變了原本陣列的樣子）
-  -
--
+
+**記得看老師準備的講義**
+
+- 寫程式的一些技巧都是為了減少重複的工作
+- win map （？）
+- 找不到問題出在哪一行的時候，注意一下編輯器的捲軸，確認一下行數
+
+# 11/30
+
+## 陣列
+
+- map vs forEach
+- async?
+- findIndex vs find
+- findIndex
+- slice, 位置取 -1 ，從右邊算過來，但這個 -1 沒有索引值。
+- API
+- MDN 上的 "prototype"
+- JSON, JS object notation
+- B-JSON => NoSQL 資料庫格式，鍵值
+- 不同瀏覽器的認定？
+- VSCode 外掛 Rainbow Brackets
+- Rainbow CSV 老師說也不錯
+- Object.assign()
+- JSON.parse 與 JSON.stringify 可以做深拷貝
+- 置變定義法
+- 物件工廠模式
+- JS event loop
+  - https://milletbard.com/2019/11/25/JavaScript-event-loop/
+- 函式作用域，區塊作用域？
+- ES6 的 TDZ
+- 阮一峰的著作：ECMAScript 6 入门
+  - https://es6.ruanyifeng.com/
+- 連鎖語法，目的是讓程式碼簡潔。
+
+# 12/01
+
+- 物件的屬性名稱用中文字串，有可能有些瀏覽器會不支援。
+- H：我覺得把學生資料改成物件之後， code 看起來更直覺了一些。
+- 一個好習慣：函式先定義再使用。寫在程式碼比較上端。
+- field, 傳進來的變數，動態屬性變數
+- 演算法，計算機概論，跟數學有關
+- Event Loop ，等待其他程序跑完才可以做的等候區，異步
+- setTimeout() ，調整執行緒（？），作用的東西先放到等候區
+- callback 語法？
+- AJAX
+- Node.js 預設 input 是異步（ Async ）的
+- read / write
+- AJAX, XML, 一些比較大比較嚴謹的系統常用
+- 現在比較常用的是 JQuery.ajax()
+- 為了跟伺服器相連
+- JQuery ， Deferred 延時物件
+- promise 在 ES6 已經成為標準
+- **Fetch**
+- async / await
